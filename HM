@@ -1,5 +1,4 @@
-HM
-Rabbit:
+RabbitFile
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
           Starting Rabbit:   nb = 1073741824
           Version: TestU01 1.2.3
@@ -23,18 +22,18 @@ smultin_MultinomialBitsOver test:
 Results of CollisionOver test:
 POISSON approximation                 :
 Expected number of collisions = N*Mu  :     5393.80
-Observed number of collisions         :     5313
-p-value of test                       :    0.86
+Observed number of collisions         :     5418
+p-value of test                       :    0.37
 -----------------------------
 Total number of cells containing j balls
-  j =  0                              :    8246038952193
-  j =  1                              :        298250814
-  j =  2                              :             5313
+  j =  0                              :    8246038952298
+  j =  1                              :        298250604
+  j =  2                              :             5418
   j =  3                              :                0
   j =  4                              :                0
   j =  5                              :                0
 -----------------------------------------------
-CPU time used                    :  00:02:17.90
+CPU time used                    :  00:02:18.81
 Generator state:
  298261440  bits have been read.
 ***********************************************************
@@ -47,7 +46,7 @@ snpair_ClosePairsBitMatch test:
 Max of all bit distances              :   21.00
 p-value of test                       :    0.59
 -----------------------------------------------
-CPU time used                    :  00:00:08.53
+CPU time used                    :  00:00:07.79
 Generator state:
  1073741760  bits have been read.
 ***********************************************************
@@ -60,7 +59,7 @@ snpair_ClosePairsBitMatch test:
 Max of all bit distances              :   10.00
 p-value of test                       :    0.20
 -----------------------------------------------
-CPU time used                    :  00:00:07.35
+CPU time used                    :  00:00:06.81
 Generator state:
  1073741184  bits have been read.
 ***********************************************************
@@ -74,10 +73,10 @@ svaria_AppearanceSpacings test:
    K = 33554432 blocks for the test
    the blocks have L = 15 bits
 -----------------------------------------------
-Normal statistic                      :    1.29
-p-value of test                       :    0.10
+Normal statistic                      :   -1.47
+p-value of test                       :    0.93
 -----------------------------------------------
-CPU time used                    :  00:00:02.57
+CPU time used                    :  00:00:02.48
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -88,13 +87,13 @@ scomp_LinearComp test:
    N =  1,  n = 75520,  r =  0,    s = 32
 -----------------------------------------------
 Number of degrees of freedom          :    9
-Chi2 statistic for size of jumps      :    5.88
-p-value of test                       :    0.75
+Chi2 statistic for size of jumps      :    7.06
+p-value of test                       :    0.63
 -----------------------------------------------
-Normal statistic for number of jumps  :    0.66
-p-value of test                       :    0.26
+Normal statistic for number of jumps  :   -1.43
+p-value of test                       :    0.92
 -----------------------------------------------
-CPU time used                    :  00:00:06.68
+CPU time used                    :  00:00:06.12
 Generator state:
  75520  bits have been read.
 ***********************************************************
@@ -104,10 +103,10 @@ scomp_LempelZiv test:
 -----------------------------------------------
    N =  1,  n = 268435456,  r =  0,   s =   32,   k =   28
 -----------------------------------------------
-Normal statistic                      :  -0.040
-p-value of test                       :    0.52
+Normal statistic                      :    0.85
+p-value of test                       :    0.20
 -----------------------------------------------
-CPU time used                    :  00:00:14.84
+CPU time used                    :  00:00:12.93
 Generator state:
  268435456  bits have been read.
 ***********************************************************
@@ -117,10 +116,10 @@ sspectral_Fourier1 test:
 -----------------------------------------------
    N =  1,  n = 1048576,  r =  0,   s =   32,   k =   20
 -----------------------------------------------
-Normal statistic                      :   -0.42
-p-value of test                       :    0.66
+Normal statistic                      :    1.19
+p-value of test                       :    0.12
 -----------------------------------------------
-CPU time used                    :  00:00:00.10
+CPU time used                    :  00:00:00.09
 Generator state:
  1048576  bits have been read.
 ***********************************************************
@@ -130,14 +129,14 @@ sspectral_Fourier3 test:
 -----------------------------------------------
    N = 65408,  n = 16384,  r =  0,   s =   32,   k =   14
 -----------------------------------------------
-Kolmogorov-Smirnov+ statistic = D+    : 5.56e-03
-p-value of test                       :    0.77
-Kolmogorov-Smirnov- statistic = D-    :   0.010
-p-value of test                       :    0.43
-Anderson-Darling statistic = A2       :    0.38
-p-value of test                       :    0.87
+Kolmogorov-Smirnov+ statistic = D+    : 6.76e-03
+p-value of test                       :    0.68
+Kolmogorov-Smirnov- statistic = D-    : 9.30e-03
+p-value of test                       :    0.49
+Anderson-Darling statistic = A2       :    0.45
+p-value of test                       :    0.79
 -----------------------------------------------
-CPU time used                    :  00:00:26.93
+CPU time used                    :  00:00:25.68
 Generator state:
  1073737728  bits have been read.
 ***********************************************************
@@ -148,13 +147,13 @@ sstring_LongestHeadRun test:
    N =  1,  n = 600,  r =  0,   s = 32,   L = 1789568
 -----------------------------------------------
 Number of degrees of freedom          :    8
-Chi-square statistic                  :    6.85
-p-value of test                       :    0.55
+Chi-square statistic                  :    7.95
+p-value of test                       :    0.44
 -----------------------------------------------
-Global longest run of 1               :   30.00
-p-value of test                       :    0.39
+Global longest run of 1               :   28.00
+p-value of test                       :    0.63
 -----------------------------------------------
-CPU time used                    :  00:00:06.40
+CPU time used                    :  00:00:06.31
 Generator state:
  1073740800  bits have been read.
 ***********************************************************
@@ -165,10 +164,10 @@ sstring_PeriodsInStrings test:
    N =  1,  n = 33554432,  r =  0,   s =   31
 -----------------------------------------------
 Number of degrees of freedom          :  217
-Chi-square statistic                  :  215.48
-p-value of test                       :    0.52
+Chi-square statistic                  :  218.19
+p-value of test                       :    0.46
 -----------------------------------------------
-CPU time used                    :  00:00:01.81
+CPU time used                    :  00:00:01.71
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -179,10 +178,10 @@ sstring_HammingWeight test:
    N =  1,  n = 33554432,  r =  0,   s = 32,   L = 32
 -----------------------------------------------
 Number of degrees of freedom          :   26
-Chi-square statistic                  :   38.12
-p-value of test                       :    0.06
+Chi-square statistic                  :   19.35
+p-value of test                       :    0.82
 -----------------------------------------------
-CPU time used                    :  00:00:01.09
+CPU time used                    :  00:00:01.04
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -192,8 +191,8 @@ sstring_HammingCorr test:
 -----------------------------------------------
    N =  1,  n = 33554432,  r =  0,   s = 32,   L = 32
 -----------------------------------------------
-Normal statistic                      :   -0.56
-p-value of test                       :    0.71
+Normal statistic                      :   -0.65
+p-value of test                       :    0.74
 -----------------------------------------------
 CPU time used                    :  00:00:01.03
 Generator state:
@@ -205,10 +204,10 @@ sstring_HammingCorr test:
 -----------------------------------------------
    N =  1,  n = 16777216,  r =  0,   s = 32,   L = 64
 -----------------------------------------------
-Normal statistic                      :    1.46
-p-value of test                       :    0.07
+Normal statistic                      :   0.020
+p-value of test                       :    0.49
 -----------------------------------------------
-CPU time used                    :  00:00:01.01
+CPU time used                    :  00:00:01.00
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -218,10 +217,10 @@ sstring_HammingCorr test:
 -----------------------------------------------
    N =  1,  n = 8388608,  r =  0,   s = 32,   L = 128
 -----------------------------------------------
-Normal statistic                      :    0.35
-p-value of test                       :    0.36
+Normal statistic                      :   -0.20
+p-value of test                       :    0.58
 -----------------------------------------------
-CPU time used                    :  00:00:01.04
+CPU time used                    :  00:00:01.03
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -233,10 +232,10 @@ sstring_HammingIndep test:
 Counters with expected numbers >= 10
 -----------------------------------------------
 Number of degrees of freedom          :  257
-Chi-square statistic                  :  251.28
-p-value of test                       :    0.59
+Chi-square statistic                  :  226.00
+p-value of test                       :    0.92
 -----------------------------------------------
-CPU time used                    :  00:00:01.37
+CPU time used                    :  00:00:01.31
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -248,10 +247,10 @@ sstring_HammingIndep test:
 Counters with expected numbers >= 10
 -----------------------------------------------
 Number of degrees of freedom          :  501
-Chi-square statistic                  :  527.81
-p-value of test                       :    0.20
+Chi-square statistic                  :  510.19
+p-value of test                       :    0.38
 -----------------------------------------------
-CPU time used                    :  00:00:01.07
+CPU time used                    :  00:00:01.03
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -263,10 +262,10 @@ sstring_HammingIndep test:
 Counters with expected numbers >= 10
 -----------------------------------------------
 Number of degrees of freedom          :  885
-Chi-square statistic                  :  911.99
-p-value of test                       :    0.26
+Chi-square statistic                  :  873.59
+p-value of test                       :    0.60
 -----------------------------------------------
-CPU time used                    :  00:00:01.09
+CPU time used                    :  00:00:01.06
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -276,19 +275,19 @@ sstring_AutoCor test:
 -----------------------------------------------
    N =  2,  n = 536870849,  r =  0,   s = 32,   d = 1
 -----------------------------------------------
-Kolmogorov-Smirnov+ statistic = D+    :    0.36
-p-value of test                       :    0.51
-Kolmogorov-Smirnov- statistic = D-    :    0.29
-p-value of test                       :    0.62
-Anderson-Darling statistic = A2       :    0.32
-p-value of test                       :    0.92
+Kolmogorov-Smirnov+ statistic = D+    :    0.55
+p-value of test                       :    0.20
+Kolmogorov-Smirnov- statistic = D-    :    0.26
+p-value of test                       :    0.67
+Anderson-Darling statistic = A2       :    0.63
+p-value of test                       :    0.60
 Tests on the sum of all N observations
-Standardized normal statistic         :   -0.14
-p-value of test                       :    0.56
-Sample variance                       :    0.41
-p-value of test                       :    0.52
+Standardized normal statistic         :   -0.54
+p-value of test                       :    0.71
+Sample variance                       :    0.13
+p-value of test                       :    0.72
 -----------------------------------------------
-CPU time used                    :  00:00:01.89
+CPU time used                    :  00:00:01.79
 Generator state:
  1073741760  bits have been read.
 ***********************************************************
@@ -298,19 +297,19 @@ sstring_AutoCor test:
 -----------------------------------------------
    N =  2,  n = 536870850,  r =  0,   s = 32,   d = 2
 -----------------------------------------------
-Kolmogorov-Smirnov+ statistic = D+    :    0.74
-p-value of test                       :    0.07
-Kolmogorov-Smirnov- statistic = D-    :    0.22
-p-value of test                       :    0.73
-Anderson-Darling statistic = A2       :    1.29
-p-value of test                       :    0.23
+Kolmogorov-Smirnov+ statistic = D+    :    0.34
+p-value of test                       :    0.54
+Kolmogorov-Smirnov- statistic = D-    :    0.35
+p-value of test                       :    0.53
+Anderson-Darling statistic = A2       :    0.37
+p-value of test                       :    0.87
 Tests on the sum of all N observations
-Standardized normal statistic         :   -0.99
-p-value of test                       :    0.84
-Sample variance                       : 7.61e-03
-p-value of test                       :    0.93
+Standardized normal statistic         : 7.63e-03
+p-value of test                       :    0.50
+Sample variance                       :    2.06
+p-value of test                       :    0.15
 -----------------------------------------------
-CPU time used                    :  00:00:01.82
+CPU time used                    :  00:00:01.81
 Generator state:
  1073741760  bits have been read.
 ***********************************************************
@@ -320,18 +319,18 @@ sstring_Run test:
 -----------------------------------------------
    N =  1,  n = 214748364,  r =  0,   s =   32
 -----------------------------------------------
-Total number of 1 runs:  214748374
+Total number of 1 runs:  214748366
 Number of degrees of freedom          :   48
-Chi2 statistic for number of runs     :   30.95
-p-value of test                       :    0.97
+Chi2 statistic for number of runs     :   32.44
+p-value of test                       :    0.96
 -----------------------------------------------
-Total number of bits:  858999808
-Normal statistic for number of bits   :    0.15
-p-value of test                       :    0.44
+Total number of bits:  859004000
+Normal statistic for number of bits   :    0.25
+p-value of test                       :    0.40
 -----------------------------------------------
-CPU time used                    :  00:00:04.71
+CPU time used                    :  00:00:04.54
 Generator state:
- 858999808  bits have been read.
+ 859004000  bits have been read.
 ***********************************************************
 HOST =
 ufile_CreateReadBin:   HM.bin
@@ -340,10 +339,10 @@ smarsa_MatrixRank test:
    N =  1,  n = 1048576,  r =  0,    s = 32,    L = 32,    k = 32
 -----------------------------------------------
 Number of degrees of freedom          :    4
-Chi-square statistic                  :    5.67
-p-value of test                       :    0.22
+Chi-square statistic                  :    5.96
+p-value of test                       :    0.20
 -----------------------------------------------
-CPU time used                    :  00:00:08.34
+CPU time used                    :  00:00:08.04
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -354,10 +353,10 @@ smarsa_MatrixRank test:
    N =  1,  n = 10485,  r =  0,    s = 32,    L = 320,    k = 320
 -----------------------------------------------
 Number of degrees of freedom          :    3
-Chi-square statistic                  :    4.41
-p-value of test                       :    0.22
+Chi-square statistic                  :    6.43
+p-value of test                       :    0.09
 -----------------------------------------------
-CPU time used                    :  00:00:11.39
+CPU time used                    :  00:00:10.85
 Generator state:
  1073664000  bits have been read.
 ***********************************************************
@@ -368,10 +367,10 @@ smarsa_MatrixRank test:
    N =  1,  n = 1024,  r =  0,    s = 32,    L = 1024,    k = 1024
 -----------------------------------------------
 Number of degrees of freedom          :    2
-Chi-square statistic                  :    1.40
-p-value of test                       :    0.50
+Chi-square statistic                  :    0.36
+p-value of test                       :    0.84
 -----------------------------------------------
-CPU time used                    :  00:00:16.93
+CPU time used                    :  00:00:15.89
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -383,30 +382,30 @@ swalk_RandomWalk1 test:
 -----------------------------------------------
 Test on the values of the Statistic H
 Number of degrees of freedom          :   52
-ChiSquare statistic                   :   41.76
-p-value of test                       :    0.84
+ChiSquare statistic                   :   40.37
+p-value of test                       :    0.88
 -----------------------------------------------
 Test on the values of the Statistic M
 Number of degrees of freedom          :   53
-ChiSquare statistic                   :   50.65
-p-value of test                       :    0.57
+ChiSquare statistic                   :   56.08
+p-value of test                       :    0.36
 -----------------------------------------------
 Test on the values of the Statistic J
 Number of degrees of freedom          :   64
-ChiSquare statistic                   :   57.37
-p-value of test                       :    0.71
+ChiSquare statistic                   :   52.01
+p-value of test                       :    0.86
 -----------------------------------------------
 Test on the values of the Statistic R
 Number of degrees of freedom          :   43
-ChiSquare statistic                   :   47.07
-p-value of test                       :    0.31
+ChiSquare statistic                   :   52.53
+p-value of test                       :    0.15
 -----------------------------------------------
 Test on the values of the Statistic C
 Number of degrees of freedom          :   26
-ChiSquare statistic                   :   17.59
-p-value of test                       :    0.89
+ChiSquare statistic                   :   26.37
+p-value of test                       :    0.44
 -----------------------------------------------
-CPU time used                    :  00:00:06.57
+CPU time used                    :  00:00:06.21
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -418,30 +417,30 @@ swalk_RandomWalk1 test:
 -----------------------------------------------
 Test on the values of the Statistic H
 Number of degrees of freedom          :  130
-ChiSquare statistic                   :  113.40
-p-value of test                       :    0.85
+ChiSquare statistic                   :  120.65
+p-value of test                       :    0.71
 -----------------------------------------------
 Test on the values of the Statistic M
 Number of degrees of freedom          :  132
-ChiSquare statistic                   :  108.69
-p-value of test                       :    0.93
+ChiSquare statistic                   :  130.52
+p-value of test                       :    0.52
 -----------------------------------------------
 Test on the values of the Statistic J
 Number of degrees of freedom          :  512
-ChiSquare statistic                   :  509.40
-p-value of test                       :    0.52
+ChiSquare statistic                   :  566.39
+p-value of test                       :    0.05
 -----------------------------------------------
 Test on the values of the Statistic R
 Number of degrees of freedom          :  124
-ChiSquare statistic                   :  152.77
-p-value of test                       :    0.04
+ChiSquare statistic                   :   88.03
+p-value of test                       :    0.9939
 -----------------------------------------------
 Test on the values of the Statistic C
 Number of degrees of freedom          :   67
-ChiSquare statistic                   :   63.60
-p-value of test                       :    0.60
+ChiSquare statistic                   :   82.85
+p-value of test                       :    0.09
 -----------------------------------------------
-CPU time used                    :  00:00:05.03
+CPU time used                    :  00:00:05.06
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -453,30 +452,30 @@ swalk_RandomWalk1 test:
 -----------------------------------------------
 Test on the values of the Statistic H
 Number of degrees of freedom          :  320
-ChiSquare statistic                   :  368.53
-p-value of test                       :    0.03
+ChiSquare statistic                   :  360.85
+p-value of test                       :    0.06
 -----------------------------------------------
 Test on the values of the Statistic M
 Number of degrees of freedom          :  321
-ChiSquare statistic                   :  319.16
-p-value of test                       :    0.52
+ChiSquare statistic                   :  291.05
+p-value of test                       :    0.88
 -----------------------------------------------
 Test on the values of the Statistic J
 Number of degrees of freedom          : 5008
-ChiSquare statistic                   : 5320.79
-p-value of test                       : 1.1e-03
+ChiSquare statistic                   : 4910.32
+p-value of test                       :    0.84
 -----------------------------------------------
 Test on the values of the Statistic R
 Number of degrees of freedom          :  317
-ChiSquare statistic                   :  305.30
-p-value of test                       :    0.67
+ChiSquare statistic                   :  348.20
+p-value of test                       :    0.11
 -----------------------------------------------
 Test on the values of the Statistic C
 Number of degrees of freedom          :  170
-ChiSquare statistic                   :  153.10
-p-value of test                       :    0.82
+ChiSquare statistic                   :  173.49
+p-value of test                       :    0.41
 -----------------------------------------------
-CPU time used                    :  00:00:04.51
+CPU time used                    :  00:00:04.29
 Generator state:
  1073735232  bits have been read.
 ========= Summary results of Rabbit =========
@@ -484,9 +483,9 @@ Generator state:
  File:             HM.bin
  Number of bits:   1073741824
  Number of statistics:  40
- Total CPU time:   00:04:42.34
+ Total CPU time:   00:04:35.01
  All tests were passed
-Alphabit:
+Alphabitfile
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
           Starting Alphabit:   nb = 1073741824
           Version: TestU01 1.2.3
@@ -507,20 +506,20 @@ smultin_MultinomialBitsOver test:
        Delta =     1,    Mu = 9.3132258e-010,    Sigma =          1
 -----------------------------------------------
 Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.79
-p-value of test                       :    0.04
-Kolmogorov-Smirnov- statistic = D-    :    0.18
-p-value of test                       :    0.79
-Anderson-Darling statistic = A2       :    1.64
-p-value of test                       :    0.15
+Kolmogorov-Smirnov+ statistic = D+    :    0.74
+p-value of test                       :    0.07
+Kolmogorov-Smirnov- statistic = D-    :    0.20
+p-value of test                       :    0.76
+Anderson-Darling statistic = A2       :    1.32
+p-value of test                       :    0.22
 For the sum of the N observations, we use
       the Normal approximation:
-Standardized empirical mean           :   -1.11
-p-value of test                       :    0.87
-Standardized empirical correlation    :    0.87
-p-value of test                       :    0.19
+Standardized empirical mean           :   -1.05
+p-value of test                       :    0.85
+Standardized empirical correlation    :    0.77
+p-value of test                       :    0.22
 -----------------------------------------------
-CPU time used                    :  00:00:02.04
+CPU time used                    :  00:00:01.98
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -539,20 +538,20 @@ smultin_MultinomialBitsOver test:
        Delta =     1,    Mu =  6.519258e-009,    Sigma =          1
 -----------------------------------------------
 Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.87
-p-value of test                       :    0.02
-Kolmogorov-Smirnov- statistic = D-    :   0.094
-p-value of test                       :    0.90
-Anderson-Darling statistic = A2       :    2.51
-p-value of test                       :    0.05
+Kolmogorov-Smirnov+ statistic = D+    :    0.51
+p-value of test                       :    0.24
+Kolmogorov-Smirnov- statistic = D-    :    0.16
+p-value of test                       :    0.82
+Anderson-Darling statistic = A2       :    0.59
+p-value of test                       :    0.64
 For the sum of the N observations, we use
       the Normal approximation:
-Standardized empirical mean           :   -1.55
-p-value of test                       :    0.94
-Standardized empirical correlation    :    1.70
-p-value of test                       :    0.04
+Standardized empirical mean           :   -0.81
+p-value of test                       :    0.79
+Standardized empirical correlation    :    0.26
+p-value of test                       :    0.40
 -----------------------------------------------
-CPU time used                    :  00:00:02.03
+CPU time used                    :  00:00:01.85
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -571,20 +570,20 @@ smultin_MultinomialBitsOver test:
        Delta =     1,    Mu = 1.1827797e-007,    Sigma =          1
 -----------------------------------------------
 Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.29
-p-value of test                       :    0.62
-Kolmogorov-Smirnov- statistic = D-    :    0.53
-p-value of test                       :    0.22
+Kolmogorov-Smirnov+ statistic = D+    :    0.36
+p-value of test                       :    0.51
+Kolmogorov-Smirnov- statistic = D-    :    0.51
+p-value of test                       :    0.24
 Anderson-Darling statistic = A2       :    0.58
-p-value of test                       :    0.65
+p-value of test                       :    0.64
 For the sum of the N observations, we use
       the Normal approximation:
-Standardized empirical mean           :    0.39
-p-value of test                       :    0.35
-Standardized empirical correlation    :   0.021
-p-value of test                       :    0.49
+Standardized empirical mean           :    0.21
+p-value of test                       :    0.42
+Standardized empirical correlation    : -9.24e-03
+p-value of test                       :    0.50
 -----------------------------------------------
-CPU time used                    :  00:00:01.90
+CPU time used                    :  00:00:01.85
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -603,20 +602,20 @@ smultin_MultinomialBitsOver test:
        Delta =     1,    Mu = 3.0516647e-005,    Sigma =          1
 -----------------------------------------------
 Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :   0.053
-p-value of test                       :    0.94
-Kolmogorov-Smirnov- statistic = D-    :    0.57
-p-value of test                       :    0.18
-Anderson-Darling statistic = A2       :    1.11
-p-value of test                       :    0.30
+Kolmogorov-Smirnov+ statistic = D+    :    0.51
+p-value of test                       :    0.24
+Kolmogorov-Smirnov- statistic = D-    :    0.38
+p-value of test                       :    0.48
+Anderson-Darling statistic = A2       :    0.60
+p-value of test                       :    0.63
 For the sum of the N observations, we use
       the Normal approximation:
-Standardized empirical mean           :    1.28
-p-value of test                       :    0.10
-Standardized empirical correlation    :    0.42
-p-value of test                       :    0.34
+Standardized empirical mean           :   -0.23
+p-value of test                       :    0.59
+Standardized empirical correlation    : 7.68e-03
+p-value of test                       :    0.50
 -----------------------------------------------
-CPU time used                    :  00:00:03.20
+CPU time used                    :  00:00:03.14
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -628,10 +627,10 @@ sstring_HammingIndep test:
 Counters with expected numbers >= 10
 -----------------------------------------------
 Number of degrees of freedom          :  257
-Chi-square statistic                  :  251.28
-p-value of test                       :    0.59
+Chi-square statistic                  :  226.00
+p-value of test                       :    0.92
 -----------------------------------------------
-CPU time used                    :  00:00:01.37
+CPU time used                    :  00:00:01.32
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -643,10 +642,10 @@ sstring_HammingIndep test:
 Counters with expected numbers >= 10
 -----------------------------------------------
 Number of degrees of freedom          :  501
-Chi-square statistic                  :  527.81
-p-value of test                       :    0.20
+Chi-square statistic                  :  510.19
+p-value of test                       :    0.38
 -----------------------------------------------
-CPU time used                    :  00:00:01.06
+CPU time used                    :  00:00:01.01
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -656,10 +655,10 @@ sstring_HammingCorr test:
 -----------------------------------------------
    N =  1,  n = 33554432,  r =  0,   s = 32,   L = 32
 -----------------------------------------------
-Normal statistic                      :   -0.56
-p-value of test                       :    0.71
+Normal statistic                      :   -0.65
+p-value of test                       :    0.74
 -----------------------------------------------
-CPU time used                    :  00:00:01.03
+CPU time used                    :  00:00:01.01
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -671,30 +670,30 @@ swalk_RandomWalk1 test:
 -----------------------------------------------
 Test on the values of the Statistic H
 Number of degrees of freedom          :   38
-ChiSquare statistic                   :   54.57
-p-value of test                       :    0.04
+ChiSquare statistic                   :   49.69
+p-value of test                       :    0.10
 -----------------------------------------------
 Test on the values of the Statistic M
 Number of degrees of freedom          :   38
-ChiSquare statistic                   :   38.15
-p-value of test                       :    0.46
+ChiSquare statistic                   :   42.38
+p-value of test                       :    0.29
 -----------------------------------------------
 Test on the values of the Statistic J
 Number of degrees of freedom          :   32
-ChiSquare statistic                   :   28.77
-p-value of test                       :    0.63
+ChiSquare statistic                   :   38.23
+p-value of test                       :    0.21
 -----------------------------------------------
 Test on the values of the Statistic R
 Number of degrees of freedom          :   28
-ChiSquare statistic                   :   38.33
-p-value of test                       :    0.09
+ChiSquare statistic                   :   18.81
+p-value of test                       :    0.90
 -----------------------------------------------
 Test on the values of the Statistic C
 Number of degrees of freedom          :   19
-ChiSquare statistic                   :   21.86
-p-value of test                       :    0.29
+ChiSquare statistic                   :   21.78
+p-value of test                       :    0.30
 -----------------------------------------------
-CPU time used                    :  00:00:07.14
+CPU time used                    :  00:00:06.96
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -706,30 +705,30 @@ swalk_RandomWalk1 test:
 -----------------------------------------------
 Test on the values of the Statistic H
 Number of degrees of freedom          :   80
-ChiSquare statistic                   :   76.44
-p-value of test                       :    0.59
+ChiSquare statistic                   :   60.40
+p-value of test                       :    0.95
 -----------------------------------------------
 Test on the values of the Statistic M
 Number of degrees of freedom          :   80
-ChiSquare statistic                   :   74.79
-p-value of test                       :    0.64
+ChiSquare statistic                   :   76.11
+p-value of test                       :    0.60
 -----------------------------------------------
 Test on the values of the Statistic J
 Number of degrees of freedom          :  160
-ChiSquare statistic                   :  134.59
-p-value of test                       :    0.93
+ChiSquare statistic                   :  127.94
+p-value of test                       :    0.97
 -----------------------------------------------
 Test on the values of the Statistic R
 Number of degrees of freedom          :   71
-ChiSquare statistic                   :  100.22
-p-value of test                       :    0.01
+ChiSquare statistic                   :   82.75
+p-value of test                       :    0.16
 -----------------------------------------------
 Test on the values of the Statistic C
 Number of degrees of freedom          :   40
-ChiSquare statistic                   :   35.37
-p-value of test                       :    0.68
+ChiSquare statistic                   :   37.79
+p-value of test                       :    0.57
 -----------------------------------------------
-CPU time used                    :  00:00:05.56
+CPU time used                    :  00:00:05.46
 Generator state:
  1073741760  bits have been read.
 ========= Summary results of Alphabit =========
@@ -737,9 +736,9 @@ Generator state:
  File:             HM.bin
  Number of bits:   1073741824
  Number of statistics:  17
- Total CPU time:   00:00:25.35
+ Total CPU time:   00:00:24.65
  All tests were passed
-BlockAlphabit:
+BlockAlphabitFile
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
           Starting Alphabit:   nb = 1073741824
           Version: TestU01 1.2.3
@@ -761,287 +760,26 @@ smultin_MultinomialBitsOver test:
        Delta =     1,    Mu = 9.3132258e-010,    Sigma =          1
 -----------------------------------------------
 Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.69
-p-value of test                       :    0.10
-Kolmogorov-Smirnov- statistic = D-    :    0.18
-p-value of test                       :    0.79
-Anderson-Darling statistic = A2       :    1.09
-p-value of test                       :    0.30
-For the sum of the N observations, we use
-      the Normal approximation:
-Standardized empirical mean           :   -1.01
-p-value of test                       :    0.84
-Standardized empirical correlation    :    0.71
-p-value of test                       :    0.24
------------------------------------------------
-CPU time used                    :  00:00:05.00
-Generator state:
- 1073741824  bits have been read.
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 1
-smultin_MultinomialBitsOver test:
------------------------------------------------
-   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    4,
-       Sparse =  FALSE
-       Number of bits = n = 536870912
-       Number of cells = 2^L =                 16
-       Expected number per cell =    33554432
-       Hashing =  FALSE
-   For Delta > -1, we use the ChiSquare approximation
-   Correction factor of the ChiSquare:
-       Delta =     1,    Mu =  6.519258e-009,    Sigma =          1
------------------------------------------------
-Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.54
-p-value of test                       :    0.21
-Kolmogorov-Smirnov- statistic = D-    :    0.35
-p-value of test                       :    0.52
-Anderson-Darling statistic = A2       :    0.65
-p-value of test                       :    0.58
-For the sum of the N observations, we use
-      the Normal approximation:
-Standardized empirical mean           :   -0.54
-p-value of test                       :    0.71
-Standardized empirical correlation    :    0.19
-p-value of test                       :    0.43
------------------------------------------------
-CPU time used                    :  00:00:04.32
-Generator state:
- 1073741824  bits have been read.
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 1
-smultin_MultinomialBitsOver test:
------------------------------------------------
-   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    8,
-       Sparse =  FALSE
-       Number of bits = n = 536870912
-       Number of cells = 2^L =                256
-       Expected number per cell =     2097152
-       Hashing =  FALSE
-   For Delta > -1, we use the ChiSquare approximation
-   Correction factor of the ChiSquare:
-       Delta =     1,    Mu = 1.1827797e-007,    Sigma =          1
------------------------------------------------
-Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.55
-p-value of test                       :    0.20
-Kolmogorov-Smirnov- statistic = D-    :    0.11
-p-value of test                       :    0.88
-Anderson-Darling statistic = A2       :    0.79
-p-value of test                       :    0.47
-For the sum of the N observations, we use
-      the Normal approximation:
-Standardized empirical mean           :   -0.98
-p-value of test                       :    0.84
-Standardized empirical correlation    :    0.28
-p-value of test                       :    0.39
------------------------------------------------
-CPU time used                    :  00:00:04.35
-Generator state:
- 1073741824  bits have been read.
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 1
-smultin_MultinomialBitsOver test:
------------------------------------------------
-   N =  2,  n = 536870912,  r =  0,   s = 32,   L =   16,
-       Sparse =  FALSE
-       Number of bits = n = 536870912
-       Number of cells = 2^L =              65536
-       Expected number per cell =        8192
-       Hashing =  FALSE
-   For Delta > -1, we use the ChiSquare approximation
-   Correction factor of the ChiSquare:
-       Delta =     1,    Mu = 3.0516647e-005,    Sigma =          1
------------------------------------------------
-Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.60
-p-value of test                       :    0.16
-Kolmogorov-Smirnov- statistic = D-    :    0.15
-p-value of test                       :    0.83
-Anderson-Darling statistic = A2       :    0.82
-p-value of test                       :    0.45
-For the sum of the N observations, we use
-      the Normal approximation:
-Standardized empirical mean           :   -0.92
-p-value of test                       :    0.82
-Standardized empirical correlation    :    0.37
-p-value of test                       :    0.35
------------------------------------------------
-CPU time used                    :  00:00:05.89
-Generator state:
- 1073741824  bits have been read.
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 1
-sstring_HammingIndep test:
------------------------------------------------
-   N =  1,  n = 33554432,  r =  0,   s = 32,   L = 16,   d = 0
-Counters with expected numbers >= 10
------------------------------------------------
-Number of degrees of freedom          :  257
-Chi-square statistic                  :  247.06
-p-value of test                       :    0.66
------------------------------------------------
-CPU time used                    :  00:00:03.71
-Generator state:
- 1073741824  bits have been read.
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 1
-sstring_HammingIndep test:
------------------------------------------------
-   N =  1,  n = 16777216,  r =  0,   s = 32,   L = 32,   d = 0
-Counters with expected numbers >= 10
------------------------------------------------
-Number of degrees of freedom          :  501
-Chi-square statistic                  :  448.55
-p-value of test                       :    0.96
------------------------------------------------
-CPU time used                    :  00:00:03.37
-Generator state:
- 1073741824  bits have been read.
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 1
-sstring_HammingCorr test:
------------------------------------------------
-   N =  1,  n = 33554432,  r =  0,   s = 32,   L = 32
------------------------------------------------
-Normal statistic                      :    1.52
-p-value of test                       :    0.06
------------------------------------------------
-CPU time used                    :  00:00:03.46
-Generator state:
- 1073741824  bits have been read.
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 1
-swalk_RandomWalk1 test:
------------------------------------------------
-   N =  1,  n = 16777216,  r =  0,   s = 32,   L0 =   64,   L1 =   64
------------------------------------------------
-Test on the values of the Statistic H
-Number of degrees of freedom          :   38
-ChiSquare statistic                   :   32.35
-p-value of test                       :    0.73
------------------------------------------------
-Test on the values of the Statistic M
-Number of degrees of freedom          :   38
-ChiSquare statistic                   :   42.11
-p-value of test                       :    0.30
------------------------------------------------
-Test on the values of the Statistic J
-Number of degrees of freedom          :   32
-ChiSquare statistic                   :   34.85
-p-value of test                       :    0.33
------------------------------------------------
-Test on the values of the Statistic R
-Number of degrees of freedom          :   28
-ChiSquare statistic                   :   18.38
-p-value of test                       :    0.92
------------------------------------------------
-Test on the values of the Statistic C
-Number of degrees of freedom          :   19
-ChiSquare statistic                   :   14.77
-p-value of test                       :    0.74
------------------------------------------------
-CPU time used                    :  00:00:09.62
-Generator state:
- 1073741824  bits have been read.
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 1
-swalk_RandomWalk1 test:
------------------------------------------------
-   N =  1,  n = 3355443,  r =  0,   s = 32,   L0 =  320,   L1 =  320
------------------------------------------------
-Test on the values of the Statistic H
-Number of degrees of freedom          :   80
-ChiSquare statistic                   :   77.91
-p-value of test                       :    0.55
------------------------------------------------
-Test on the values of the Statistic M
-Number of degrees of freedom          :   80
-ChiSquare statistic                   :   69.66
-p-value of test                       :    0.79
------------------------------------------------
-Test on the values of the Statistic J
-Number of degrees of freedom          :  160
-ChiSquare statistic                   :  140.67
-p-value of test                       :    0.86
------------------------------------------------
-Test on the values of the Statistic R
-Number of degrees of freedom          :   71
-ChiSquare statistic                   :   82.89
-p-value of test                       :    0.16
------------------------------------------------
-Test on the values of the Statistic C
-Number of degrees of freedom          :   40
-ChiSquare statistic                   :   40.57
-p-value of test                       :    0.45
------------------------------------------------
-CPU time used                    :  00:00:08.09
-Generator state:
- 1073741824  bits have been read.
-========= Summary results of Alphabit =========
- Version:          TestU01 1.2.3
- File:             HM.bin
- Number of bits:   1073741824
- Number of statistics:  17
- Total CPU time:   00:00:47.85
- All tests were passed
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-          Starting Alphabit:   nb = 1073741824
-          Version: TestU01 1.2.3
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 2
-smultin_MultinomialBitsOver test:
------------------------------------------------
-   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    2,
-       Sparse =  FALSE
-       Number of bits = n = 536870912
-       Number of cells = 2^L =                  4
-       Expected number per cell =  1.3421773e+008
-       Hashing =  FALSE
-   For Delta > -1, we use the ChiSquare approximation
-   Correction factor of the ChiSquare:
-       Delta =     1,    Mu = 9.3132258e-010,    Sigma =          1
------------------------------------------------
-Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.59
-p-value of test                       :    0.17
+Kolmogorov-Smirnov+ statistic = D+    :    0.32
+p-value of test                       :    0.57
 Kolmogorov-Smirnov- statistic = D-    :    0.34
 p-value of test                       :    0.54
-Anderson-Darling statistic = A2       :    0.77
-p-value of test                       :    0.49
+Anderson-Darling statistic = A2       :    0.32
+p-value of test                       :    0.92
 For the sum of the N observations, we use
       the Normal approximation:
-Standardized empirical mean           :   -0.75
-p-value of test                       :    0.77
-Standardized empirical correlation    :    0.39
-p-value of test                       :    0.35
+Standardized empirical mean           :   -0.32
+p-value of test                       :    0.62
+Standardized empirical correlation    :   -0.11
+p-value of test                       :    0.54
 -----------------------------------------------
-CPU time used                    :  00:00:03.48
+CPU time used                    :  00:00:04.23
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
 HOST =
 ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 2
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 1
 smultin_MultinomialBitsOver test:
 -----------------------------------------------
    N =  2,  n = 536870912,  r =  0,   s = 32,   L =    4,
@@ -1055,26 +793,26 @@ smultin_MultinomialBitsOver test:
        Delta =     1,    Mu =  6.519258e-009,    Sigma =          1
 -----------------------------------------------
 Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.38
-p-value of test                       :    0.47
-Kolmogorov-Smirnov- statistic = D-    :    0.27
-p-value of test                       :    0.66
-Anderson-Darling statistic = A2       :    0.39
-p-value of test                       :    0.85
+Kolmogorov-Smirnov+ statistic = D+    :    0.61
+p-value of test                       :    0.15
+Kolmogorov-Smirnov- statistic = D-    :   0.082
+p-value of test                       :    0.91
+Anderson-Darling statistic = A2       :    1.03
+p-value of test                       :    0.33
 For the sum of the N observations, we use
       the Normal approximation:
-Standardized empirical mean           :   -0.31
-p-value of test                       :    0.62
-Standardized empirical correlation    :   -0.97
-p-value of test                       :    0.83
+Standardized empirical mean           :   -1.13
+p-value of test                       :    0.87
+Standardized empirical correlation    :    0.70
+p-value of test                       :    0.24
 -----------------------------------------------
-CPU time used                    :  00:00:03.42
+CPU time used                    :  00:00:04.09
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
 HOST =
 ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 2
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 1
 smultin_MultinomialBitsOver test:
 -----------------------------------------------
    N =  2,  n = 536870912,  r =  0,   s = 32,   L =    8,
@@ -1088,287 +826,26 @@ smultin_MultinomialBitsOver test:
        Delta =     1,    Mu = 1.1827797e-007,    Sigma =          1
 -----------------------------------------------
 Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    : 4.57e-04
-p-value of test                       :    0.9995    *****
-Kolmogorov-Smirnov- statistic = D-    :    0.59
-p-value of test                       :    0.17
-Anderson-Darling statistic = A2       :    3.45
-p-value of test                       :    0.02
-For the sum of the N observations, we use
-      the Normal approximation:
-Standardized empirical mean           :    2.78
-p-value of test                       : 2.8e-03
-Standardized empirical correlation    :    1.00
-p-value of test                       :    0.16
------------------------------------------------
-CPU time used                    :  00:00:03.42
-Generator state:
- 1073741824  bits have been read.
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 2
-smultin_MultinomialBitsOver test:
------------------------------------------------
-   N =  2,  n = 536870912,  r =  0,   s = 32,   L =   16,
-       Sparse =  FALSE
-       Number of bits = n = 536870912
-       Number of cells = 2^L =              65536
-       Expected number per cell =        8192
-       Hashing =  FALSE
-   For Delta > -1, we use the ChiSquare approximation
-   Correction factor of the ChiSquare:
-       Delta =     1,    Mu = 3.0516647e-005,    Sigma =          1
------------------------------------------------
-Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.15
-p-value of test                       :    0.83
-Kolmogorov-Smirnov- statistic = D-    :    0.63
-p-value of test                       :    0.14
+Kolmogorov-Smirnov+ statistic = D+    :    0.46
+p-value of test                       :    0.32
+Kolmogorov-Smirnov- statistic = D-    :    0.35
+p-value of test                       :    0.54
 Anderson-Darling statistic = A2       :    0.90
 p-value of test                       :    0.40
 For the sum of the N observations, we use
       the Normal approximation:
-Standardized empirical mean           :    0.97
-p-value of test                       :    0.17
-Standardized empirical correlation    :    0.47
-p-value of test                       :    0.32
------------------------------------------------
-CPU time used                    :  00:00:04.73
-Generator state:
- 1073741824  bits have been read.
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 2
-sstring_HammingIndep test:
------------------------------------------------
-   N =  1,  n = 33554432,  r =  0,   s = 32,   L = 16,   d = 0
-Counters with expected numbers >= 10
------------------------------------------------
-Number of degrees of freedom          :  257
-Chi-square statistic                  :  279.82
-p-value of test                       :    0.16
------------------------------------------------
-CPU time used                    :  00:00:02.75
-Generator state:
- 1073741824  bits have been read.
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 2
-sstring_HammingIndep test:
------------------------------------------------
-   N =  1,  n = 16777216,  r =  0,   s = 32,   L = 32,   d = 0
-Counters with expected numbers >= 10
------------------------------------------------
-Number of degrees of freedom          :  501
-Chi-square statistic                  :  488.95
-p-value of test                       :    0.64
------------------------------------------------
-CPU time used                    :  00:00:02.57
-Generator state:
- 1073741824  bits have been read.
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 2
-sstring_HammingCorr test:
------------------------------------------------
-   N =  1,  n = 33554432,  r =  0,   s = 32,   L = 32
------------------------------------------------
-Normal statistic                      :    1.81
-p-value of test                       :    0.04
------------------------------------------------
-CPU time used                    :  00:00:02.48
-Generator state:
- 1073741824  bits have been read.
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 2
-swalk_RandomWalk1 test:
------------------------------------------------
-   N =  1,  n = 16777216,  r =  0,   s = 32,   L0 =   64,   L1 =   64
------------------------------------------------
-Test on the values of the Statistic H
-Number of degrees of freedom          :   38
-ChiSquare statistic                   :   63.43
-p-value of test                       : 6.0e-03
------------------------------------------------
-Test on the values of the Statistic M
-Number of degrees of freedom          :   38
-ChiSquare statistic                   :   26.57
-p-value of test                       :    0.92
------------------------------------------------
-Test on the values of the Statistic J
-Number of degrees of freedom          :   32
-ChiSquare statistic                   :   37.50
-p-value of test                       :    0.23
------------------------------------------------
-Test on the values of the Statistic R
-Number of degrees of freedom          :   28
-ChiSquare statistic                   :   25.24
-p-value of test                       :    0.61
------------------------------------------------
-Test on the values of the Statistic C
-Number of degrees of freedom          :   19
-ChiSquare statistic                   :   17.09
-p-value of test                       :    0.58
------------------------------------------------
-CPU time used                    :  00:00:08.84
-Generator state:
- 1073741824  bits have been read.
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 2
-swalk_RandomWalk1 test:
------------------------------------------------
-   N =  1,  n = 3355443,  r =  0,   s = 32,   L0 =  320,   L1 =  320
------------------------------------------------
-Test on the values of the Statistic H
-Number of degrees of freedom          :   80
-ChiSquare statistic                   :   95.29
-p-value of test                       :    0.12
------------------------------------------------
-Test on the values of the Statistic M
-Number of degrees of freedom          :   80
-ChiSquare statistic                   :   71.82
-p-value of test                       :    0.73
------------------------------------------------
-Test on the values of the Statistic J
-Number of degrees of freedom          :  160
-ChiSquare statistic                   :  157.80
-p-value of test                       :    0.53
------------------------------------------------
-Test on the values of the Statistic R
-Number of degrees of freedom          :   71
-ChiSquare statistic                   :   78.86
-p-value of test                       :    0.24
------------------------------------------------
-Test on the values of the Statistic C
-Number of degrees of freedom          :   40
-ChiSquare statistic                   :   42.26
-p-value of test                       :    0.37
------------------------------------------------
-CPU time used                    :  00:00:07.34
-Generator state:
- 1073741824  bits have been read.
-========= Summary results of Alphabit =========
- Version:          TestU01 1.2.3
- File:             HM.bin
- Number of bits:   1073741824
- Number of statistics:  17
- Total CPU time:   00:00:39.06
- All tests were passed
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-          Starting Alphabit:   nb = 1073741824
-          Version: TestU01 1.2.3
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 4
-smultin_MultinomialBitsOver test:
------------------------------------------------
-   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    2,
-       Sparse =  FALSE
-       Number of bits = n = 536870912
-       Number of cells = 2^L =                  4
-       Expected number per cell =  1.3421773e+008
-       Hashing =  FALSE
-   For Delta > -1, we use the ChiSquare approximation
-   Correction factor of the ChiSquare:
-       Delta =     1,    Mu = 9.3132258e-010,    Sigma =          1
------------------------------------------------
-Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.59
-p-value of test                       :    0.17
-Kolmogorov-Smirnov- statistic = D-    :    0.30
-p-value of test                       :    0.61
-Anderson-Darling statistic = A2       :    0.73
-p-value of test                       :    0.51
-For the sum of the N observations, we use
-      the Normal approximation:
-Standardized empirical mean           :   -0.78
-p-value of test                       :    0.78
-Standardized empirical correlation    :    0.42
-p-value of test                       :    0.34
------------------------------------------------
-CPU time used                    :  00:00:03.06
-Generator state:
- 1073741824  bits have been read.
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 4
-smultin_MultinomialBitsOver test:
------------------------------------------------
-   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    4,
-       Sparse =  FALSE
-       Number of bits = n = 536870912
-       Number of cells = 2^L =                 16
-       Expected number per cell =    33554432
-       Hashing =  FALSE
-   For Delta > -1, we use the ChiSquare approximation
-   Correction factor of the ChiSquare:
-       Delta =     1,    Mu =  6.519258e-009,    Sigma =          1
------------------------------------------------
-Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.95
-p-value of test                       : 2.7e-03
-Kolmogorov-Smirnov- statistic = D-    :   0.043
-p-value of test                       :    0.96
-Anderson-Darling statistic = A2       :    4.11
-p-value of test                       : 9.6e-03
-For the sum of the N observations, we use
-      the Normal approximation:
-Standardized empirical mean           :   -1.88
-p-value of test                       :    0.97
-Standardized empirical correlation    :    2.50
-p-value of test                       : 6.2e-03
------------------------------------------------
-CPU time used                    :  00:00:03.03
-Generator state:
- 1073741824  bits have been read.
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 4
-smultin_MultinomialBitsOver test:
------------------------------------------------
-   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    8,
-       Sparse =  FALSE
-       Number of bits = n = 536870912
-       Number of cells = 2^L =                256
-       Expected number per cell =     2097152
-       Hashing =  FALSE
-   For Delta > -1, we use the ChiSquare approximation
-   Correction factor of the ChiSquare:
-       Delta =     1,    Mu = 1.1827797e-007,    Sigma =          1
------------------------------------------------
-Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.48
-p-value of test                       :    0.29
-Kolmogorov-Smirnov- statistic = D-    :    0.37
-p-value of test                       :    0.49
-Anderson-Darling statistic = A2       :    0.54
+Standardized empirical mean           :   -0.49
 p-value of test                       :    0.69
-For the sum of the N observations, we use
-      the Normal approximation:
-Standardized empirical mean           :   -0.24
-p-value of test                       :    0.60
-Standardized empirical correlation    : -7.77e-03
-p-value of test                       :    0.50
+Standardized empirical correlation    :   -2.44
+p-value of test                       :    0.9927
 -----------------------------------------------
-CPU time used                    :  00:00:02.96
+CPU time used                    :  00:00:04.10
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
 HOST =
 ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 4
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 1
 smultin_MultinomialBitsOver test:
 -----------------------------------------------
    N =  2,  n = 536870912,  r =  0,   s = 32,   L =   16,
@@ -1384,18 +861,540 @@ smultin_MultinomialBitsOver test:
 Test Results for Delta =   1.0000
 Kolmogorov-Smirnov+ statistic = D+    :    0.48
 p-value of test                       :    0.28
-Kolmogorov-Smirnov- statistic = D-    :    0.48
-p-value of test                       :    0.29
-Anderson-Darling statistic = A2       :    2.09
-p-value of test                       :    0.09
+Kolmogorov-Smirnov- statistic = D-    :    0.40
+p-value of test                       :    0.43
+Anderson-Darling statistic = A2       :    1.43
+p-value of test                       :    0.19
 For the sum of the N observations, we use
       the Normal approximation:
-Standardized empirical mean           :  -0.025
-p-value of test                       :    0.51
-Standardized empirical correlation    :   -6.27
-p-value of test                       : 1 -  1.8e-10    *****
+Standardized empirical mean           :   -0.60
+p-value of test                       :    0.72
+Standardized empirical correlation    :   -3.96
+p-value of test                       : 1 -  3.7e-05    *****
+-----------------------------------------------
+CPU time used                    :  00:00:05.57
+Generator state:
+ 1073741824  bits have been read.
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 1
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 33554432,  r =  0,   s = 32,   L = 16,   d = 0
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  257
+Chi-square statistic                  :  257.40
+p-value of test                       :    0.48
+-----------------------------------------------
+CPU time used                    :  00:00:03.54
+Generator state:
+ 1073741824  bits have been read.
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 1
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 16777216,  r =  0,   s = 32,   L = 32,   d = 0
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  501
+Chi-square statistic                  :  504.25
+p-value of test                       :    0.45
+-----------------------------------------------
+CPU time used                    :  00:00:03.29
+Generator state:
+ 1073741824  bits have been read.
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 1
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 33554432,  r =  0,   s = 32,   L = 32
+-----------------------------------------------
+Normal statistic                      :    0.72
+p-value of test                       :    0.24
+-----------------------------------------------
+CPU time used                    :  00:00:03.26
+Generator state:
+ 1073741824  bits have been read.
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 1
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 16777216,  r =  0,   s = 32,   L0 =   64,   L1 =   64
+-----------------------------------------------
+Test on the values of the Statistic H
+Number of degrees of freedom          :   38
+ChiSquare statistic                   :   31.62
+p-value of test                       :    0.76
+-----------------------------------------------
+Test on the values of the Statistic M
+Number of degrees of freedom          :   38
+ChiSquare statistic                   :   34.02
+p-value of test                       :    0.65
+-----------------------------------------------
+Test on the values of the Statistic J
+Number of degrees of freedom          :   32
+ChiSquare statistic                   :   34.50
+p-value of test                       :    0.35
+-----------------------------------------------
+Test on the values of the Statistic R
+Number of degrees of freedom          :   28
+ChiSquare statistic                   :   32.27
+p-value of test                       :    0.26
+-----------------------------------------------
+Test on the values of the Statistic C
+Number of degrees of freedom          :   19
+ChiSquare statistic                   :   23.69
+p-value of test                       :    0.21
+-----------------------------------------------
+CPU time used                    :  00:00:09.23
+Generator state:
+ 1073741824  bits have been read.
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 1
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 3355443,  r =  0,   s = 32,   L0 =  320,   L1 =  320
+-----------------------------------------------
+Test on the values of the Statistic H
+Number of degrees of freedom          :   80
+ChiSquare statistic                   :   73.82
+p-value of test                       :    0.67
+-----------------------------------------------
+Test on the values of the Statistic M
+Number of degrees of freedom          :   80
+ChiSquare statistic                   :   68.42
+p-value of test                       :    0.82
+-----------------------------------------------
+Test on the values of the Statistic J
+Number of degrees of freedom          :  160
+ChiSquare statistic                   :  130.90
+p-value of test                       :    0.96
+-----------------------------------------------
+Test on the values of the Statistic R
+Number of degrees of freedom          :   71
+ChiSquare statistic                   :   75.68
+p-value of test                       :    0.33
+-----------------------------------------------
+Test on the values of the Statistic C
+Number of degrees of freedom          :   40
+ChiSquare statistic                   :   49.50
+p-value of test                       :    0.14
+-----------------------------------------------
+CPU time used                    :  00:00:07.68
+Generator state:
+ 1073741824  bits have been read.
+========= Summary results of Alphabit =========
+ Version:          TestU01 1.2.3
+ File:             HM.bin
+ Number of bits:   1073741824
+ Number of statistics:  17
+ Total CPU time:   00:00:45.06
+ All tests were passed
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Alphabit:   nb = 1073741824
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 2
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    2,
+       Sparse =  FALSE
+       Number of bits = n = 536870912
+       Number of cells = 2^L =                  4
+       Expected number per cell =  1.3421773e+008
+       Hashing =  FALSE
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare:
+       Delta =     1,    Mu = 9.3132258e-010,    Sigma =          1
+-----------------------------------------------
+Test Results for Delta =   1.0000
+Kolmogorov-Smirnov+ statistic = D+    :    0.25
+p-value of test                       :    0.69
+Kolmogorov-Smirnov- statistic = D-    :    0.41
+p-value of test                       :    0.41
+Anderson-Darling statistic = A2       :    0.37
+p-value of test                       :    0.87
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :  -0.045
+p-value of test                       :    0.52
+Standardized empirical correlation    :   -0.27
+p-value of test                       :    0.60
+-----------------------------------------------
+CPU time used                    :  00:00:03.32
+Generator state:
+ 1073741824  bits have been read.
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 2
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    4,
+       Sparse =  FALSE
+       Number of bits = n = 536870912
+       Number of cells = 2^L =                 16
+       Expected number per cell =    33554432
+       Hashing =  FALSE
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare:
+       Delta =     1,    Mu =  6.519258e-009,    Sigma =          1
+-----------------------------------------------
+Test Results for Delta =   1.0000
+Kolmogorov-Smirnov+ statistic = D+    :    0.19
+p-value of test                       :    0.77
+Kolmogorov-Smirnov- statistic = D-    :    0.33
+p-value of test                       :    0.56
+Anderson-Darling statistic = A2       :    0.31
+p-value of test                       :    0.92
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :    0.22
+p-value of test                       :    0.41
+Standardized empirical correlation    :   -0.76
+p-value of test                       :    0.78
+-----------------------------------------------
+CPU time used                    :  00:00:03.23
+Generator state:
+ 1073741824  bits have been read.
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 2
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    8,
+       Sparse =  FALSE
+       Number of bits = n = 536870912
+       Number of cells = 2^L =                256
+       Expected number per cell =     2097152
+       Hashing =  FALSE
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare:
+       Delta =     1,    Mu = 1.1827797e-007,    Sigma =          1
+-----------------------------------------------
+Test Results for Delta =   1.0000
+Kolmogorov-Smirnov+ statistic = D+    :    0.41
+p-value of test                       :    0.43
+Kolmogorov-Smirnov- statistic = D-    :    0.35
+p-value of test                       :    0.53
+Anderson-Darling statistic = A2       :    0.41
+p-value of test                       :    0.83
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :   -0.16
+p-value of test                       :    0.56
+Standardized empirical correlation    :   -0.11
+p-value of test                       :    0.55
+-----------------------------------------------
+CPU time used                    :  00:00:03.18
+Generator state:
+ 1073741824  bits have been read.
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 2
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  2,  n = 536870912,  r =  0,   s = 32,   L =   16,
+       Sparse =  FALSE
+       Number of bits = n = 536870912
+       Number of cells = 2^L =              65536
+       Expected number per cell =        8192
+       Hashing =  FALSE
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare:
+       Delta =     1,    Mu = 3.0516647e-005,    Sigma =          1
+-----------------------------------------------
+Test Results for Delta =   1.0000
+Kolmogorov-Smirnov+ statistic = D+    :    0.26
+p-value of test                       :    0.67
+Kolmogorov-Smirnov- statistic = D-    :    0.48
+p-value of test                       :    0.28
+Anderson-Darling statistic = A2       :    1.24
+p-value of test                       :    0.25
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :    1.03
+p-value of test                       :    0.15
+Standardized empirical correlation    :   -2.20
+p-value of test                       :    0.99
 -----------------------------------------------
 CPU time used                    :  00:00:04.39
+Generator state:
+ 1073741824  bits have been read.
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 2
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 33554432,  r =  0,   s = 32,   L = 16,   d = 0
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  257
+Chi-square statistic                  :  265.84
+p-value of test                       :    0.34
+-----------------------------------------------
+CPU time used                    :  00:00:02.71
+Generator state:
+ 1073741824  bits have been read.
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 2
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 16777216,  r =  0,   s = 32,   L = 32,   d = 0
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  501
+Chi-square statistic                  :  511.33
+p-value of test                       :    0.37
+-----------------------------------------------
+CPU time used                    :  00:00:02.46
+Generator state:
+ 1073741824  bits have been read.
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 2
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 33554432,  r =  0,   s = 32,   L = 32
+-----------------------------------------------
+Normal statistic                      :   -0.50
+p-value of test                       :    0.69
+-----------------------------------------------
+CPU time used                    :  00:00:02.37
+Generator state:
+ 1073741824  bits have been read.
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 2
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 16777216,  r =  0,   s = 32,   L0 =   64,   L1 =   64
+-----------------------------------------------
+Test on the values of the Statistic H
+Number of degrees of freedom          :   38
+ChiSquare statistic                   :   52.48
+p-value of test                       :    0.06
+-----------------------------------------------
+Test on the values of the Statistic M
+Number of degrees of freedom          :   38
+ChiSquare statistic                   :   60.71
+p-value of test                       :    0.01
+-----------------------------------------------
+Test on the values of the Statistic J
+Number of degrees of freedom          :   32
+ChiSquare statistic                   :   42.35
+p-value of test                       :    0.10
+-----------------------------------------------
+Test on the values of the Statistic R
+Number of degrees of freedom          :   28
+ChiSquare statistic                   :   22.91
+p-value of test                       :    0.74
+-----------------------------------------------
+Test on the values of the Statistic C
+Number of degrees of freedom          :   19
+ChiSquare statistic                   :    9.61
+p-value of test                       :    0.96
+-----------------------------------------------
+CPU time used                    :  00:00:08.34
+Generator state:
+ 1073741824  bits have been read.
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 2
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 3355443,  r =  0,   s = 32,   L0 =  320,   L1 =  320
+-----------------------------------------------
+Test on the values of the Statistic H
+Number of degrees of freedom          :   80
+ChiSquare statistic                   :   84.77
+p-value of test                       :    0.34
+-----------------------------------------------
+Test on the values of the Statistic M
+Number of degrees of freedom          :   80
+ChiSquare statistic                   :   74.69
+p-value of test                       :    0.65
+-----------------------------------------------
+Test on the values of the Statistic J
+Number of degrees of freedom          :  160
+ChiSquare statistic                   :  164.08
+p-value of test                       :    0.40
+-----------------------------------------------
+Test on the values of the Statistic R
+Number of degrees of freedom          :   71
+ChiSquare statistic                   :   69.90
+p-value of test                       :    0.51
+-----------------------------------------------
+Test on the values of the Statistic C
+Number of degrees of freedom          :   40
+ChiSquare statistic                   :   34.35
+p-value of test                       :    0.72
+-----------------------------------------------
+CPU time used                    :  00:00:06.90
+Generator state:
+ 1073741824  bits have been read.
+========= Summary results of Alphabit =========
+ Version:          TestU01 1.2.3
+ File:             HM.bin
+ Number of bits:   1073741824
+ Number of statistics:  17
+ Total CPU time:   00:00:36.96
+ All tests were passed
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Alphabit:   nb = 1073741824
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 4
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    2,
+       Sparse =  FALSE
+       Number of bits = n = 536870912
+       Number of cells = 2^L =                  4
+       Expected number per cell =  1.3421773e+008
+       Hashing =  FALSE
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare:
+       Delta =     1,    Mu = 9.3132258e-010,    Sigma =          1
+-----------------------------------------------
+Test Results for Delta =   1.0000
+Kolmogorov-Smirnov+ statistic = D+    :    0.81
+p-value of test                       :    0.04
+Kolmogorov-Smirnov- statistic = D-    :   0.097
+p-value of test                       :    0.89
+Anderson-Darling statistic = A2       :    1.89
+p-value of test                       :    0.11
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :   -1.19
+p-value of test                       :    0.88
+Standardized empirical correlation    :    1.00
+p-value of test                       :    0.16
+-----------------------------------------------
+CPU time used                    :  00:00:02.87
+Generator state:
+ 1073741824  bits have been read.
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 4
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    4,
+       Sparse =  FALSE
+       Number of bits = n = 536870912
+       Number of cells = 2^L =                 16
+       Expected number per cell =    33554432
+       Hashing =  FALSE
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare:
+       Delta =     1,    Mu =  6.519258e-009,    Sigma =          1
+-----------------------------------------------
+Test Results for Delta =   1.0000
+Kolmogorov-Smirnov+ statistic = D+    :    0.45
+p-value of test                       :    0.35
+Kolmogorov-Smirnov- statistic = D-    :    0.34
+p-value of test                       :    0.55
+Anderson-Darling statistic = A2       :    0.45
+p-value of test                       :    0.78
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :   -0.40
+p-value of test                       :    0.66
+Standardized empirical correlation    :   0.027
+p-value of test                       :    0.49
+-----------------------------------------------
+CPU time used                    :  00:00:02.81
+Generator state:
+ 1073741824  bits have been read.
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 4
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    8,
+       Sparse =  FALSE
+       Number of bits = n = 536870912
+       Number of cells = 2^L =                256
+       Expected number per cell =     2097152
+       Hashing =  FALSE
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare:
+       Delta =     1,    Mu = 1.1827797e-007,    Sigma =          1
+-----------------------------------------------
+Test Results for Delta =   1.0000
+Kolmogorov-Smirnov+ statistic = D+    :    0.26
+p-value of test                       :    0.67
+Kolmogorov-Smirnov- statistic = D-    :    0.53
+p-value of test                       :    0.22
+Anderson-Darling statistic = A2       :    0.57
+p-value of test                       :    0.65
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :    0.46
+p-value of test                       :    0.32
+Standardized empirical correlation    :   0.027
+p-value of test                       :    0.49
+-----------------------------------------------
+CPU time used                    :  00:00:02.76
+Generator state:
+ 1073741824  bits have been read.
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 4
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  2,  n = 536870912,  r =  0,   s = 32,   L =   16,
+       Sparse =  FALSE
+       Number of bits = n = 536870912
+       Number of cells = 2^L =              65536
+       Expected number per cell =        8192
+       Hashing =  FALSE
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare:
+       Delta =     1,    Mu = 3.0516647e-005,    Sigma =          1
+-----------------------------------------------
+Test Results for Delta =   1.0000
+Kolmogorov-Smirnov+ statistic = D+    :   0.041
+p-value of test                       :    0.96
+Kolmogorov-Smirnov- statistic = D-    :    0.93
+p-value of test                       : 4.5e-03
+Anderson-Darling statistic = A2       :    3.75
+p-value of test                       :    0.01
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :    2.29
+p-value of test                       :    0.01
+Standardized empirical correlation    :    3.70
+p-value of test                       : 1.1e-04    *****
+-----------------------------------------------
+CPU time used                    :  00:00:03.96
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -1408,10 +1407,10 @@ sstring_HammingIndep test:
 Counters with expected numbers >= 10
 -----------------------------------------------
 Number of degrees of freedom          :  257
-Chi-square statistic                  :  280.42
-p-value of test                       :    0.15
+Chi-square statistic                  :  249.87
+p-value of test                       :    0.61
 -----------------------------------------------
-CPU time used                    :  00:00:02.34
+CPU time used                    :  00:00:02.29
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -1424,10 +1423,10 @@ sstring_HammingIndep test:
 Counters with expected numbers >= 10
 -----------------------------------------------
 Number of degrees of freedom          :  501
-Chi-square statistic                  :  438.46
-p-value of test                       :    0.98
+Chi-square statistic                  :  475.73
+p-value of test                       :    0.79
 -----------------------------------------------
-CPU time used                    :  00:00:02.12
+CPU time used                    :  00:00:02.06
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -1438,10 +1437,10 @@ sstring_HammingCorr test:
 -----------------------------------------------
    N =  1,  n = 33554432,  r =  0,   s = 32,   L = 32
 -----------------------------------------------
-Normal statistic                      :    1.06
-p-value of test                       :    0.14
+Normal statistic                      :    0.77
+p-value of test                       :    0.22
 -----------------------------------------------
-CPU time used                    :  00:00:02.12
+CPU time used                    :  00:00:01.96
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -1454,30 +1453,30 @@ swalk_RandomWalk1 test:
 -----------------------------------------------
 Test on the values of the Statistic H
 Number of degrees of freedom          :   38
-ChiSquare statistic                   :   35.68
-p-value of test                       :    0.58
+ChiSquare statistic                   :   32.36
+p-value of test                       :    0.73
 -----------------------------------------------
 Test on the values of the Statistic M
 Number of degrees of freedom          :   38
-ChiSquare statistic                   :   35.48
-p-value of test                       :    0.59
+ChiSquare statistic                   :   37.95
+p-value of test                       :    0.47
 -----------------------------------------------
 Test on the values of the Statistic J
 Number of degrees of freedom          :   32
-ChiSquare statistic                   :   29.03
-p-value of test                       :    0.62
+ChiSquare statistic                   :   43.09
+p-value of test                       :    0.09
 -----------------------------------------------
 Test on the values of the Statistic R
 Number of degrees of freedom          :   28
-ChiSquare statistic                   :   29.51
-p-value of test                       :    0.39
+ChiSquare statistic                   :   35.64
+p-value of test                       :    0.15
 -----------------------------------------------
 Test on the values of the Statistic C
 Number of degrees of freedom          :   19
-ChiSquare statistic                   :   11.57
-p-value of test                       :    0.90
+ChiSquare statistic                   :   13.64
+p-value of test                       :    0.80
 -----------------------------------------------
-CPU time used                    :  00:00:08.32
+CPU time used                    :  00:00:07.98
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -1490,30 +1489,30 @@ swalk_RandomWalk1 test:
 -----------------------------------------------
 Test on the values of the Statistic H
 Number of degrees of freedom          :   80
-ChiSquare statistic                   :   90.30
-p-value of test                       :    0.20
+ChiSquare statistic                   :   69.28
+p-value of test                       :    0.80
 -----------------------------------------------
 Test on the values of the Statistic M
 Number of degrees of freedom          :   80
-ChiSquare statistic                   :   76.10
-p-value of test                       :    0.60
+ChiSquare statistic                   :   81.36
+p-value of test                       :    0.44
 -----------------------------------------------
 Test on the values of the Statistic J
 Number of degrees of freedom          :  160
-ChiSquare statistic                   :  178.09
-p-value of test                       :    0.16
+ChiSquare statistic                   :  152.30
+p-value of test                       :    0.66
 -----------------------------------------------
 Test on the values of the Statistic R
 Number of degrees of freedom          :   71
-ChiSquare statistic                   :   88.29
-p-value of test                       :    0.08
+ChiSquare statistic                   :   56.63
+p-value of test                       :    0.89
 -----------------------------------------------
 Test on the values of the Statistic C
 Number of degrees of freedom          :   40
-ChiSquare statistic                   :   60.58
-p-value of test                       :    0.02
+ChiSquare statistic                   :   31.69
+p-value of test                       :    0.82
 -----------------------------------------------
-CPU time used                    :  00:00:06.84
+CPU time used                    :  00:00:06.48
 Generator state:
  1073741824  bits have been read.
 ========= Summary results of Alphabit =========
@@ -1521,7 +1520,7 @@ Generator state:
  File:             HM.bin
  Number of bits:   1073741824
  Number of statistics:  17
- Total CPU time:   00:00:35.23
+ Total CPU time:   00:00:33.21
  All tests were passed
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
           Starting Alphabit:   nb = 1073741824
@@ -1544,20 +1543,20 @@ smultin_MultinomialBitsOver test:
        Delta =     1,    Mu = 9.3132258e-010,    Sigma =          1
 -----------------------------------------------
 Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.83
-p-value of test                       :    0.03
+Kolmogorov-Smirnov+ statistic = D+    :    0.74
+p-value of test                       :    0.07
 Kolmogorov-Smirnov- statistic = D-    :    0.13
-p-value of test                       :    0.86
-Anderson-Darling statistic = A2       :    1.98
-p-value of test                       :    0.10
+p-value of test                       :    0.85
+Anderson-Darling statistic = A2       :    1.40
+p-value of test                       :    0.20
 For the sum of the N observations, we use
       the Normal approximation:
-Standardized empirical mean           :   -1.19
-p-value of test                       :    0.88
-Standardized empirical correlation    :    0.99
-p-value of test                       :    0.16
+Standardized empirical mean           :   -1.10
+p-value of test                       :    0.86
+Standardized empirical correlation    :    0.85
+p-value of test                       :    0.20
 -----------------------------------------------
-CPU time used                    :  00:00:02.92
+CPU time used                    :  00:00:02.79
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -1577,18 +1576,51 @@ smultin_MultinomialBitsOver test:
        Delta =     1,    Mu =  6.519258e-009,    Sigma =          1
 -----------------------------------------------
 Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.71
-p-value of test                       :    0.08
-Kolmogorov-Smirnov- statistic = D-    :    0.14
-p-value of test                       :    0.84
-Anderson-Darling statistic = A2       :    1.24
-p-value of test                       :    0.25
+Kolmogorov-Smirnov+ statistic = D+    :    0.24
+p-value of test                       :    0.70
+Kolmogorov-Smirnov- statistic = D-    :    0.40
+p-value of test                       :    0.44
+Anderson-Darling statistic = A2       :    0.44
+p-value of test                       :    0.79
 For the sum of the N observations, we use
       the Normal approximation:
-Standardized empirical mean           :   -1.16
-p-value of test                       :    0.88
-Standardized empirical correlation    :    0.91
-p-value of test                       :    0.18
+Standardized empirical mean           :    0.45
+p-value of test                       :    0.33
+Standardized empirical correlation    :   -1.34
+p-value of test                       :    0.91
+-----------------------------------------------
+CPU time used                    :  00:00:02.68
+Generator state:
+ 1073741824  bits have been read.
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 8
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    8,
+       Sparse =  FALSE
+       Number of bits = n = 536870912
+       Number of cells = 2^L =                256
+       Expected number per cell =     2097152
+       Hashing =  FALSE
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare:
+       Delta =     1,    Mu = 1.1827797e-007,    Sigma =          1
+-----------------------------------------------
+Test Results for Delta =   1.0000
+Kolmogorov-Smirnov+ statistic = D+    :    0.44
+p-value of test                       :    0.37
+Kolmogorov-Smirnov- statistic = D-    :    0.26
+p-value of test                       :    0.68
+Anderson-Darling statistic = A2       :    0.40
+p-value of test                       :    0.83
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :   -0.39
+p-value of test                       :    0.65
+Standardized empirical correlation    :   -0.11
+p-value of test                       :    0.54
 -----------------------------------------------
 CPU time used                    :  00:00:02.76
 Generator state:
@@ -1599,39 +1631,6 @@ ufile_CreateReadBin:   HM.bin
 unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 8
 smultin_MultinomialBitsOver test:
 -----------------------------------------------
-   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    8,
-       Sparse =  FALSE
-       Number of bits = n = 536870912
-       Number of cells = 2^L =                256
-       Expected number per cell =     2097152
-       Hashing =  FALSE
-   For Delta > -1, we use the ChiSquare approximation
-   Correction factor of the ChiSquare:
-       Delta =     1,    Mu = 1.1827797e-007,    Sigma =          1
------------------------------------------------
-Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.11
-p-value of test                       :    0.88
-Kolmogorov-Smirnov- statistic = D-    :    0.65
-p-value of test                       :    0.12
-Anderson-Darling statistic = A2       :    1.08
-p-value of test                       :    0.31
-For the sum of the N observations, we use
-      the Normal approximation:
-Standardized empirical mean           :    1.12
-p-value of test                       :    0.13
-Standardized empirical correlation    :    0.63
-p-value of test                       :    0.27
------------------------------------------------
-CPU time used                    :  00:00:02.85
-Generator state:
- 1073741824  bits have been read.
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 8
-smultin_MultinomialBitsOver test:
------------------------------------------------
    N =  2,  n = 536870912,  r =  0,   s = 32,   L =   16,
        Sparse =  FALSE
        Number of bits = n = 536870912
@@ -1643,20 +1642,20 @@ smultin_MultinomialBitsOver test:
        Delta =     1,    Mu = 3.0516647e-005,    Sigma =          1
 -----------------------------------------------
 Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.48
-p-value of test                       :    0.29
-Kolmogorov-Smirnov- statistic = D-    :   0.057
-p-value of test                       :    0.94
-Anderson-Darling statistic = A2       :    1.27
-p-value of test                       :    0.24
+Kolmogorov-Smirnov+ statistic = D+    :    0.23
+p-value of test                       :    0.71
+Kolmogorov-Smirnov- statistic = D-    :    0.47
+p-value of test                       :    0.30
+Anderson-Darling statistic = A2       :    1.00
+p-value of test                       :    0.35
 For the sum of the N observations, we use
       the Normal approximation:
-Standardized empirical mean           :   -1.35
-p-value of test                       :    0.91
-Standardized empirical correlation    :   -0.40
-p-value of test                       :    0.66
+Standardized empirical mean           :    0.94
+p-value of test                       :    0.17
+Standardized empirical correlation    :   -1.74
+p-value of test                       :    0.96
 -----------------------------------------------
-CPU time used                    :  00:00:04.26
+CPU time used                    :  00:00:03.87
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -1669,10 +1668,10 @@ sstring_HammingIndep test:
 Counters with expected numbers >= 10
 -----------------------------------------------
 Number of degrees of freedom          :  257
-Chi-square statistic                  :  304.85
-p-value of test                       :    0.02
+Chi-square statistic                  :  277.09
+p-value of test                       :    0.19
 -----------------------------------------------
-CPU time used                    :  00:00:02.25
+CPU time used                    :  00:00:02.07
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -1685,10 +1684,10 @@ sstring_HammingIndep test:
 Counters with expected numbers >= 10
 -----------------------------------------------
 Number of degrees of freedom          :  501
-Chi-square statistic                  :  457.06
-p-value of test                       :    0.92
+Chi-square statistic                  :  490.82
+p-value of test                       :    0.62
 -----------------------------------------------
-CPU time used                    :  00:00:02.00
+CPU time used                    :  00:00:01.75
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -1699,10 +1698,10 @@ sstring_HammingCorr test:
 -----------------------------------------------
    N =  1,  n = 33554432,  r =  0,   s = 32,   L = 32
 -----------------------------------------------
-Normal statistic                      :    0.23
-p-value of test                       :    0.41
+Normal statistic                      :   -0.33
+p-value of test                       :    0.63
 -----------------------------------------------
-CPU time used                    :  00:00:01.90
+CPU time used                    :  00:00:01.82
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -1715,30 +1714,30 @@ swalk_RandomWalk1 test:
 -----------------------------------------------
 Test on the values of the Statistic H
 Number of degrees of freedom          :   38
-ChiSquare statistic                   :   41.64
-p-value of test                       :    0.32
+ChiSquare statistic                   :   51.48
+p-value of test                       :    0.07
 -----------------------------------------------
 Test on the values of the Statistic M
 Number of degrees of freedom          :   38
-ChiSquare statistic                   :   39.14
-p-value of test                       :    0.42
+ChiSquare statistic                   :   48.83
+p-value of test                       :    0.11
 -----------------------------------------------
 Test on the values of the Statistic J
 Number of degrees of freedom          :   32
-ChiSquare statistic                   :   39.38
-p-value of test                       :    0.17
+ChiSquare statistic                   :   29.73
+p-value of test                       :    0.58
 -----------------------------------------------
 Test on the values of the Statistic R
 Number of degrees of freedom          :   28
-ChiSquare statistic                   :   30.51
-p-value of test                       :    0.34
+ChiSquare statistic                   :   31.42
+p-value of test                       :    0.30
 -----------------------------------------------
 Test on the values of the Statistic C
 Number of degrees of freedom          :   19
-ChiSquare statistic                   :   23.75
-p-value of test                       :    0.21
+ChiSquare statistic                   :    9.20
+p-value of test                       :    0.97
 -----------------------------------------------
-CPU time used                    :  00:00:08.68
+CPU time used                    :  00:00:07.81
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -1751,30 +1750,30 @@ swalk_RandomWalk1 test:
 -----------------------------------------------
 Test on the values of the Statistic H
 Number of degrees of freedom          :   80
-ChiSquare statistic                   :   80.90
-p-value of test                       :    0.45
+ChiSquare statistic                   :   88.98
+p-value of test                       :    0.23
 -----------------------------------------------
 Test on the values of the Statistic M
 Number of degrees of freedom          :   80
-ChiSquare statistic                   :   80.42
-p-value of test                       :    0.47
+ChiSquare statistic                   :   80.98
+p-value of test                       :    0.45
 -----------------------------------------------
 Test on the values of the Statistic J
 Number of degrees of freedom          :  160
-ChiSquare statistic                   :  187.15
-p-value of test                       :    0.07
+ChiSquare statistic                   :  173.49
+p-value of test                       :    0.22
 -----------------------------------------------
 Test on the values of the Statistic R
 Number of degrees of freedom          :   71
-ChiSquare statistic                   :   72.07
-p-value of test                       :    0.44
+ChiSquare statistic                   :   76.08
+p-value of test                       :    0.32
 -----------------------------------------------
 Test on the values of the Statistic C
 Number of degrees of freedom          :   40
-ChiSquare statistic                   :   40.95
-p-value of test                       :    0.43
+ChiSquare statistic                   :   56.57
+p-value of test                       :    0.04
 -----------------------------------------------
-CPU time used                    :  00:00:06.65
+CPU time used                    :  00:00:06.31
 Generator state:
  1073741824  bits have been read.
 ========= Summary results of Alphabit =========
@@ -1782,7 +1781,7 @@ Generator state:
  File:             HM.bin
  Number of bits:   1073741824
  Number of statistics:  17
- Total CPU time:   00:00:34.31
+ Total CPU time:   00:00:31.90
  All tests were passed
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
           Starting Alphabit:   nb = 1073741824
@@ -1805,20 +1804,20 @@ smultin_MultinomialBitsOver test:
        Delta =     1,    Mu = 9.3132258e-010,    Sigma =          1
 -----------------------------------------------
 Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.59
-p-value of test                       :    0.17
-Kolmogorov-Smirnov- statistic = D-    :    0.13
-p-value of test                       :    0.85
-Anderson-Darling statistic = A2       :    0.83
-p-value of test                       :    0.44
+Kolmogorov-Smirnov+ statistic = D+    :    0.78
+p-value of test                       :    0.05
+Kolmogorov-Smirnov- statistic = D-    :   0.092
+p-value of test                       :    0.90
+Anderson-Darling statistic = A2       :    1.76
+p-value of test                       :    0.13
 For the sum of the N observations, we use
       the Normal approximation:
-Standardized empirical mean           :   -0.94
-p-value of test                       :    0.83
-Standardized empirical correlation    :    0.58
-p-value of test                       :    0.28
+Standardized empirical mean           :   -1.17
+p-value of test                       :    0.88
+Standardized empirical correlation    :    0.97
+p-value of test                       :    0.17
 -----------------------------------------------
-CPU time used                    :  00:00:02.75
+CPU time used                    :  00:00:02.54
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -1838,51 +1837,18 @@ smultin_MultinomialBitsOver test:
        Delta =     1,    Mu =  6.519258e-009,    Sigma =          1
 -----------------------------------------------
 Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.89
-p-value of test                       :    0.01
-Kolmogorov-Smirnov- statistic = D-    :   0.051
-p-value of test                       :    0.95
-Anderson-Darling statistic = A2       :    2.94
-p-value of test                       :    0.03
+Kolmogorov-Smirnov+ statistic = D+    :    0.45
+p-value of test                       :    0.36
+Kolmogorov-Smirnov- statistic = D-    :   0.099
+p-value of test                       :    0.89
+Anderson-Darling statistic = A2       :    0.77
+p-value of test                       :    0.49
 For the sum of the N observations, we use
       the Normal approximation:
-Standardized empirical mean           :   -1.70
-p-value of test                       :    0.96
-Standardized empirical correlation    :    2.03
-p-value of test                       :    0.02
------------------------------------------------
-CPU time used                    :  00:00:02.82
-Generator state:
- 1073741824  bits have been read.
-***********************************************************
-HOST =
-ufile_CreateReadBin:   HM.bin
-unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 16
-smultin_MultinomialBitsOver test:
------------------------------------------------
-   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    8,
-       Sparse =  FALSE
-       Number of bits = n = 536870912
-       Number of cells = 2^L =                256
-       Expected number per cell =     2097152
-       Hashing =  FALSE
-   For Delta > -1, we use the ChiSquare approximation
-   Correction factor of the ChiSquare:
-       Delta =     1,    Mu = 1.1827797e-007,    Sigma =          1
------------------------------------------------
-Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.12
-p-value of test                       :    0.86
-Kolmogorov-Smirnov- statistic = D-    :    0.58
-p-value of test                       :    0.18
-Anderson-Darling statistic = A2       :    0.82
-p-value of test                       :    0.45
-For the sum of the N observations, we use
-      the Normal approximation:
-Standardized empirical mean           :    0.94
-p-value of test                       :    0.17
-Standardized empirical correlation    :    0.27
-p-value of test                       :    0.40
+Standardized empirical mean           :   -0.86
+p-value of test                       :    0.80
+Standardized empirical correlation    :   -0.16
+p-value of test                       :    0.56
 -----------------------------------------------
 CPU time used                    :  00:00:02.59
 Generator state:
@@ -1893,6 +1859,39 @@ ufile_CreateReadBin:   HM.bin
 unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 16
 smultin_MultinomialBitsOver test:
 -----------------------------------------------
+   N =  2,  n = 536870912,  r =  0,   s = 32,   L =    8,
+       Sparse =  FALSE
+       Number of bits = n = 536870912
+       Number of cells = 2^L =                256
+       Expected number per cell =     2097152
+       Hashing =  FALSE
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare:
+       Delta =     1,    Mu = 1.1827797e-007,    Sigma =          1
+-----------------------------------------------
+Test Results for Delta =   1.0000
+Kolmogorov-Smirnov+ statistic = D+    :    0.15
+p-value of test                       :    0.83
+Kolmogorov-Smirnov- statistic = D-    :    0.44
+p-value of test                       :    0.36
+Anderson-Darling statistic = A2       :    0.48
+p-value of test                       :    0.74
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :    0.61
+p-value of test                       :    0.27
+Standardized empirical correlation    :   -0.27
+p-value of test                       :    0.60
+-----------------------------------------------
+CPU time used                    :  00:00:02.43
+Generator state:
+ 1073741824  bits have been read.
+***********************************************************
+HOST =
+ufile_CreateReadBin:   HM.bin
+unif01_CreateBitBlockGen:   r = 0,   s = 32,   w = 16
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
    N =  2,  n = 536870912,  r =  0,   s = 32,   L =   16,
        Sparse =  FALSE
        Number of bits = n = 536870912
@@ -1904,20 +1903,20 @@ smultin_MultinomialBitsOver test:
        Delta =     1,    Mu = 3.0516647e-005,    Sigma =          1
 -----------------------------------------------
 Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.16
-p-value of test                       :    0.81
-Kolmogorov-Smirnov- statistic = D-    :    0.39
-p-value of test                       :    0.45
-Anderson-Darling statistic = A2       :    0.45
-p-value of test                       :    0.78
+Kolmogorov-Smirnov+ statistic = D+    :    0.62
+p-value of test                       :    0.14
+Kolmogorov-Smirnov- statistic = D-    :   0.041
+p-value of test                       :    0.96
+Anderson-Darling statistic = A2       :    1.34
+p-value of test                       :    0.22
 For the sum of the N observations, we use
       the Normal approximation:
-Standardized empirical mean           :    0.59
-p-value of test                       :    0.28
-Standardized empirical correlation    :   -0.75
-p-value of test                       :    0.77
+Standardized empirical mean           :   -1.44
+p-value of test                       :    0.92
+Standardized empirical correlation    :    0.75
+p-value of test                       :    0.23
 -----------------------------------------------
-CPU time used                    :  00:00:04.09
+CPU time used                    :  00:00:03.71
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -1930,10 +1929,10 @@ sstring_HammingIndep test:
 Counters with expected numbers >= 10
 -----------------------------------------------
 Number of degrees of freedom          :  257
-Chi-square statistic                  :  265.00
-p-value of test                       :    0.35
+Chi-square statistic                  :  261.32
+p-value of test                       :    0.41
 -----------------------------------------------
-CPU time used                    :  00:00:02.12
+CPU time used                    :  00:00:01.93
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -1946,10 +1945,10 @@ sstring_HammingIndep test:
 Counters with expected numbers >= 10
 -----------------------------------------------
 Number of degrees of freedom          :  501
-Chi-square statistic                  :  499.25
-p-value of test                       :    0.51
+Chi-square statistic                  :  477.00
+p-value of test                       :    0.77
 -----------------------------------------------
-CPU time used                    :  00:00:01.75
+CPU time used                    :  00:00:01.64
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -1960,10 +1959,10 @@ sstring_HammingCorr test:
 -----------------------------------------------
    N =  1,  n = 33554432,  r =  0,   s = 32,   L = 32
 -----------------------------------------------
-Normal statistic                      :    0.78
-p-value of test                       :    0.22
+Normal statistic                      :    0.31
+p-value of test                       :    0.38
 -----------------------------------------------
-CPU time used                    :  00:00:01.76
+CPU time used                    :  00:00:01.64
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -1976,30 +1975,30 @@ swalk_RandomWalk1 test:
 -----------------------------------------------
 Test on the values of the Statistic H
 Number of degrees of freedom          :   38
-ChiSquare statistic                   :   54.57
-p-value of test                       :    0.04
+ChiSquare statistic                   :   49.69
+p-value of test                       :    0.10
 -----------------------------------------------
 Test on the values of the Statistic M
 Number of degrees of freedom          :   38
-ChiSquare statistic                   :   42.53
-p-value of test                       :    0.28
+ChiSquare statistic                   :   46.55
+p-value of test                       :    0.16
 -----------------------------------------------
 Test on the values of the Statistic J
 Number of degrees of freedom          :   32
-ChiSquare statistic                   :   36.36
-p-value of test                       :    0.27
+ChiSquare statistic                   :   51.97
+p-value of test                       :    0.01
 -----------------------------------------------
 Test on the values of the Statistic R
 Number of degrees of freedom          :   28
-ChiSquare statistic                   :   30.44
-p-value of test                       :    0.34
+ChiSquare statistic                   :   36.77
+p-value of test                       :    0.12
 -----------------------------------------------
 Test on the values of the Statistic C
 Number of degrees of freedom          :   19
-ChiSquare statistic                   :   17.08
-p-value of test                       :    0.58
+ChiSquare statistic                   :   24.06
+p-value of test                       :    0.19
 -----------------------------------------------
-CPU time used                    :  00:00:08.10
+CPU time used                    :  00:00:07.54
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -2012,30 +2011,30 @@ swalk_RandomWalk1 test:
 -----------------------------------------------
 Test on the values of the Statistic H
 Number of degrees of freedom          :   80
-ChiSquare statistic                   :   76.44
-p-value of test                       :    0.59
+ChiSquare statistic                   :   60.40
+p-value of test                       :    0.95
 -----------------------------------------------
 Test on the values of the Statistic M
 Number of degrees of freedom          :   80
-ChiSquare statistic                   :   61.65
-p-value of test                       :    0.94
+ChiSquare statistic                   :   74.46
+p-value of test                       :    0.65
 -----------------------------------------------
 Test on the values of the Statistic J
 Number of degrees of freedom          :  160
-ChiSquare statistic                   :  160.78
-p-value of test                       :    0.47
+ChiSquare statistic                   :  161.86
+p-value of test                       :    0.44
 -----------------------------------------------
 Test on the values of the Statistic R
 Number of degrees of freedom          :   71
-ChiSquare statistic                   :   72.46
-p-value of test                       :    0.43
+ChiSquare statistic                   :   59.10
+p-value of test                       :    0.84
 -----------------------------------------------
 Test on the values of the Statistic C
 Number of degrees of freedom          :   40
-ChiSquare statistic                   :   37.81
-p-value of test                       :    0.57
+ChiSquare statistic                   :   39.85
+p-value of test                       :    0.48
 -----------------------------------------------
-CPU time used                    :  00:00:06.65
+CPU time used                    :  00:00:06.54
 Generator state:
  1073741760  bits have been read.
 ========= Summary results of Alphabit =========
@@ -2043,7 +2042,7 @@ Generator state:
  File:             HM.bin
  Number of bits:   1073741824
  Number of statistics:  17
- Total CPU time:   00:00:32.70
+ Total CPU time:   00:00:30.60
  All tests were passed
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
           Starting Alphabit:   nb = 1073741824
@@ -2066,20 +2065,20 @@ smultin_MultinomialBitsOver test:
        Delta =     1,    Mu = 9.3132258e-010,    Sigma =          1
 -----------------------------------------------
 Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.79
-p-value of test                       :    0.04
-Kolmogorov-Smirnov- statistic = D-    :    0.18
-p-value of test                       :    0.79
-Anderson-Darling statistic = A2       :    1.64
-p-value of test                       :    0.15
+Kolmogorov-Smirnov+ statistic = D+    :    0.74
+p-value of test                       :    0.07
+Kolmogorov-Smirnov- statistic = D-    :    0.20
+p-value of test                       :    0.76
+Anderson-Darling statistic = A2       :    1.32
+p-value of test                       :    0.22
 For the sum of the N observations, we use
       the Normal approximation:
-Standardized empirical mean           :   -1.11
-p-value of test                       :    0.87
-Standardized empirical correlation    :    0.87
-p-value of test                       :    0.19
+Standardized empirical mean           :   -1.05
+p-value of test                       :    0.85
+Standardized empirical correlation    :    0.77
+p-value of test                       :    0.22
 -----------------------------------------------
-CPU time used                    :  00:00:02.76
+CPU time used                    :  00:00:02.70
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -2099,20 +2098,20 @@ smultin_MultinomialBitsOver test:
        Delta =     1,    Mu =  6.519258e-009,    Sigma =          1
 -----------------------------------------------
 Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.87
-p-value of test                       :    0.02
-Kolmogorov-Smirnov- statistic = D-    :   0.094
-p-value of test                       :    0.90
-Anderson-Darling statistic = A2       :    2.51
-p-value of test                       :    0.05
+Kolmogorov-Smirnov+ statistic = D+    :    0.51
+p-value of test                       :    0.24
+Kolmogorov-Smirnov- statistic = D-    :    0.16
+p-value of test                       :    0.82
+Anderson-Darling statistic = A2       :    0.59
+p-value of test                       :    0.64
 For the sum of the N observations, we use
       the Normal approximation:
-Standardized empirical mean           :   -1.55
-p-value of test                       :    0.94
-Standardized empirical correlation    :    1.70
-p-value of test                       :    0.04
+Standardized empirical mean           :   -0.81
+p-value of test                       :    0.79
+Standardized empirical correlation    :    0.26
+p-value of test                       :    0.40
 -----------------------------------------------
-CPU time used                    :  00:00:02.62
+CPU time used                    :  00:00:02.48
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -2132,20 +2131,20 @@ smultin_MultinomialBitsOver test:
        Delta =     1,    Mu = 1.1827797e-007,    Sigma =          1
 -----------------------------------------------
 Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :    0.29
-p-value of test                       :    0.62
-Kolmogorov-Smirnov- statistic = D-    :    0.53
-p-value of test                       :    0.22
+Kolmogorov-Smirnov+ statistic = D+    :    0.36
+p-value of test                       :    0.51
+Kolmogorov-Smirnov- statistic = D-    :    0.51
+p-value of test                       :    0.24
 Anderson-Darling statistic = A2       :    0.58
-p-value of test                       :    0.65
+p-value of test                       :    0.64
 For the sum of the N observations, we use
       the Normal approximation:
-Standardized empirical mean           :    0.39
-p-value of test                       :    0.35
-Standardized empirical correlation    :   0.021
-p-value of test                       :    0.49
+Standardized empirical mean           :    0.21
+p-value of test                       :    0.42
+Standardized empirical correlation    : -9.24e-03
+p-value of test                       :    0.50
 -----------------------------------------------
-CPU time used                    :  00:00:02.56
+CPU time used                    :  00:00:02.40
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -2165,20 +2164,20 @@ smultin_MultinomialBitsOver test:
        Delta =     1,    Mu = 3.0516647e-005,    Sigma =          1
 -----------------------------------------------
 Test Results for Delta =   1.0000
-Kolmogorov-Smirnov+ statistic = D+    :   0.053
-p-value of test                       :    0.94
-Kolmogorov-Smirnov- statistic = D-    :    0.57
-p-value of test                       :    0.18
-Anderson-Darling statistic = A2       :    1.11
-p-value of test                       :    0.30
+Kolmogorov-Smirnov+ statistic = D+    :    0.51
+p-value of test                       :    0.24
+Kolmogorov-Smirnov- statistic = D-    :    0.38
+p-value of test                       :    0.48
+Anderson-Darling statistic = A2       :    0.60
+p-value of test                       :    0.63
 For the sum of the N observations, we use
       the Normal approximation:
-Standardized empirical mean           :    1.28
-p-value of test                       :    0.10
-Standardized empirical correlation    :    0.42
-p-value of test                       :    0.34
+Standardized empirical mean           :   -0.23
+p-value of test                       :    0.59
+Standardized empirical correlation    : 7.68e-03
+p-value of test                       :    0.50
 -----------------------------------------------
-CPU time used                    :  00:00:04.07
+CPU time used                    :  00:00:03.96
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -2191,10 +2190,10 @@ sstring_HammingIndep test:
 Counters with expected numbers >= 10
 -----------------------------------------------
 Number of degrees of freedom          :  257
-Chi-square statistic                  :  251.28
-p-value of test                       :    0.59
+Chi-square statistic                  :  226.00
+p-value of test                       :    0.92
 -----------------------------------------------
-CPU time used                    :  00:00:01.93
+CPU time used                    :  00:00:01.90
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -2207,10 +2206,10 @@ sstring_HammingIndep test:
 Counters with expected numbers >= 10
 -----------------------------------------------
 Number of degrees of freedom          :  501
-Chi-square statistic                  :  527.81
-p-value of test                       :    0.20
+Chi-square statistic                  :  510.19
+p-value of test                       :    0.38
 -----------------------------------------------
-CPU time used                    :  00:00:01.81
+CPU time used                    :  00:00:01.76
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -2221,10 +2220,10 @@ sstring_HammingCorr test:
 -----------------------------------------------
    N =  1,  n = 33554432,  r =  0,   s = 32,   L = 32
 -----------------------------------------------
-Normal statistic                      :   -0.56
-p-value of test                       :    0.71
+Normal statistic                      :   -0.65
+p-value of test                       :    0.74
 -----------------------------------------------
-CPU time used                    :  00:00:01.73
+CPU time used                    :  00:00:01.68
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -2237,30 +2236,30 @@ swalk_RandomWalk1 test:
 -----------------------------------------------
 Test on the values of the Statistic H
 Number of degrees of freedom          :   38
-ChiSquare statistic                   :   54.57
-p-value of test                       :    0.04
+ChiSquare statistic                   :   49.69
+p-value of test                       :    0.10
 -----------------------------------------------
 Test on the values of the Statistic M
 Number of degrees of freedom          :   38
-ChiSquare statistic                   :   38.15
-p-value of test                       :    0.46
+ChiSquare statistic                   :   42.38
+p-value of test                       :    0.29
 -----------------------------------------------
 Test on the values of the Statistic J
 Number of degrees of freedom          :   32
-ChiSquare statistic                   :   28.77
-p-value of test                       :    0.63
+ChiSquare statistic                   :   38.23
+p-value of test                       :    0.21
 -----------------------------------------------
 Test on the values of the Statistic R
 Number of degrees of freedom          :   28
-ChiSquare statistic                   :   38.33
-p-value of test                       :    0.09
+ChiSquare statistic                   :   18.81
+p-value of test                       :    0.90
 -----------------------------------------------
 Test on the values of the Statistic C
 Number of degrees of freedom          :   19
-ChiSquare statistic                   :   21.86
-p-value of test                       :    0.29
+ChiSquare statistic                   :   21.78
+p-value of test                       :    0.30
 -----------------------------------------------
-CPU time used                    :  00:00:08.10
+CPU time used                    :  00:00:07.78
 Generator state:
  1073741824  bits have been read.
 ***********************************************************
@@ -2273,30 +2272,30 @@ swalk_RandomWalk1 test:
 -----------------------------------------------
 Test on the values of the Statistic H
 Number of degrees of freedom          :   80
-ChiSquare statistic                   :   76.44
-p-value of test                       :    0.59
+ChiSquare statistic                   :   60.40
+p-value of test                       :    0.95
 -----------------------------------------------
 Test on the values of the Statistic M
 Number of degrees of freedom          :   80
-ChiSquare statistic                   :   74.79
-p-value of test                       :    0.64
+ChiSquare statistic                   :   76.11
+p-value of test                       :    0.60
 -----------------------------------------------
 Test on the values of the Statistic J
 Number of degrees of freedom          :  160
-ChiSquare statistic                   :  134.59
-p-value of test                       :    0.93
+ChiSquare statistic                   :  127.94
+p-value of test                       :    0.97
 -----------------------------------------------
 Test on the values of the Statistic R
 Number of degrees of freedom          :   71
-ChiSquare statistic                   :  100.22
-p-value of test                       :    0.01
+ChiSquare statistic                   :   82.75
+p-value of test                       :    0.16
 -----------------------------------------------
 Test on the values of the Statistic C
 Number of degrees of freedom          :   40
-ChiSquare statistic                   :   35.37
-p-value of test                       :    0.68
+ChiSquare statistic                   :   37.79
+p-value of test                       :    0.57
 -----------------------------------------------
-CPU time used                    :  00:00:06.48
+CPU time used                    :  00:00:06.25
 Generator state:
  1073741760  bits have been read.
 ========= Summary results of Alphabit =========
@@ -2304,5 +2303,5 @@ Generator state:
  File:             HM.bin
  Number of bits:   1073741824
  Number of statistics:  17
- Total CPU time:   00:00:32.10
+ Total CPU time:   00:00:30.96
  All tests were passed
