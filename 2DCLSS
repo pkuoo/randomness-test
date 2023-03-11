@@ -10,7 +10,7 @@ ufile_CreateReadBin:   2DCLSS.bin
 smultin_MultinomialBitsOver test:
 -----------------------------------------------
    N = 30,  n = 9942048,  r =  0,   s = 32,   L =   38,
-       Sparse =   TRUE
+       Sparse =  TRUE
        Number of bits = n = 9942048
        Number of cells = 2^L =       274877906944
        Expected number per cell =  1 /  27648.016
