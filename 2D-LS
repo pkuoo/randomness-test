@@ -6,7 +6,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ***********************************************************
 HOST =
-ufile_CreateReadBin:   D2_LS.bin
+ufile_CreateReadBin:  D2_LS.bin
 smultin_MultinomialBitsOver test:
 -----------------------------------------------
    N = 30,  n = 9942048,  r =  0,   s = 32,   L =   38,
